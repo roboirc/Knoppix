@@ -1,1 +1,2 @@
-# Knoppix
+# Knoppix Installation Guide / FAQ
+
