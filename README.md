@@ -10,9 +10,9 @@ I have made a walkthrough for you while setting up Knoppix 8.6 and hope it will 
 
 2) See the "Flash-Knoppix" icon? Click on it and you see this:
 
-![](Step_1.jpeg)
+![](Step_1.jpg)
 
 You are able to install Knoppix to both Hard Drives and Flash Drives. I will be installing it to an external 80gb USB connected drive. So I click on the second option - h (Allow installation also on fixed hard disks). Then I see the following:
 
-![](Step_2.jpeg)
+![](Step_2.jpg)
 
