@@ -16,3 +16,52 @@ You are able to install Knoppix to both Hard Drives and Flash Drives. I will be 
 
 ![](Step_2.jpg)
 
+I have two hard drives, 1TB inside laptop and my external 80GB USB drive (in the bottom of list). I click on that. Then I see this screen: 
+
+![](Step_3.jpg)
+
+Options shown are: 
+p Installation on FAT32 with additional overlay partition
+i Installation on FAT32 with (optional) < 4GB file
+n No Overlay (read-only like CD/DVD)
+
+What does it all mean?
+Overlay is what Knoppix defines as a location that DATA is be stored and can be ENCRYPTED
+
+So I choose the first one (p) allowing it to create overlay in a separate partition. Will explain more. Then we see this screen:
+
+![](Step_4.jpg)
+
+This is asking me if I want to remaster Knoppix. Sounds complicated? I chose No because I didn't understand the screen and continued. Then this screen came, asking me for size of overlay partition. By default it choose maximum size of the drive 80gb and I clicked Ok / Accepted it. 
+
+![](Step_5.jpg)
+
+Then it continued with the installation
+
+![](Step_6.jpg)
+
+Then it asked me if I wanted to use encryption for the overlay partition
+
+![](Step_7.jpg)
+
+I chose No and continued till the end with no more options. 
+
+![](Step_8.jpg)
+
+![](Step_9.jpg)
+
+And we are done installing Knoppix 8.6 to external USB drive (80gb).
+
+Then I check the drive after in Ubuntu and it showed two partitions in Nautilus. The following screens show the partitions and their sizes respectively
+
+Partition 1:
+
+![](Step_10.jpg) ![](Step_10_Properties.jpg) 
+
+Partition 2:
+
+![](Step_11.jpg) ![](Step_11_Properties.jpg) 
+
+Hope you find that useful!
+
+roboirc
